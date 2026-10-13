@@ -42,10 +42,15 @@ pruebas.py           Pruebas automáticas (evidencia de calidad)
 CRUD SOBRE SQLITE (base_datos.py -> archivo viajes_aventura.db)
 ------------------------------------------------------------------------------
                  Crear (INSERT)   Leer (SELECT)        Actualizar (UPDATE)     Eliminar (DELETE)
+                 
 Destinos         registrar        listar / buscar      modificar               eliminar
+
 Paquetes         crear            listar / buscar      modificar               eliminar
+
 Reservas         reservar         historial / buscar   modificar_personas      eliminar (solo canceladas)
+
 Usuarios         registrar        iniciar_sesion       (no aplica)             (no aplica)
+
 Además, cancelar una reserva hace UPDATE del estado y devuelve los cupos.
 
 ------------------------------------------------------------------------------
