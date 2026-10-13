@@ -53,15 +53,25 @@ REQUERIMIENTOS DE LA GUÍA vs. DÓNDE SE CUMPLEN
 ------------------------------------------------------------------------------
 Registrar / modificar / eliminar / listar destinos ..... gestores.py
 Crear paquetes con múltiples destinos ................... gestores.py (mínimo 2 destinos)
+
 Definir fechas y costos ................................. gestores.py + modelos.py
+
 Consultar disponibilidad de paquetes .................... GestorPaquetes.listar(solo_disponibles=True)
+
 Calcular costos según destinos .......................... modelos.py -> calcular_costo()
+
 Registrarse y autenticarse .............................. autenticacion.py
+
 Realizar reservas ....................................... gestores.py
+
 Almacenar reservas en base de datos ..................... base_datos.py + gestores.py
+
 Consultar historial de reservas ......................... GestorReservas.historial()
+
 Validar datos ingresados ................................ validaciones.py
+
 Proteger credenciales y datos sensibles ................. seguridad.py (hash + sal, nunca texto plano)
+
 Consultas SQL seguras ................................... todas usan parámetros (?) -> evita SQL Injection
 
 ------------------------------------------------------------------------------
