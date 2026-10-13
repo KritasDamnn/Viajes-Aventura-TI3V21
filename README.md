@@ -1,4 +1,4 @@
-Este archivo .PY consiste en un proyecto para la onceava evaluación, "Desarrollo de Soluciones de Software en Python
+Este archivo .PY consiste en un proyecto para la doceava evaluación, "Desarrollo de Soluciones de Software en Python
 ". Se debe descargar el archivo y ejecutar mediante Visual Studio Code
 
 Esta evaluación universitaria fue hecha por; 
