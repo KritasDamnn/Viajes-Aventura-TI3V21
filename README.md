@@ -78,12 +78,3 @@ Validar datos ingresados ................................ validaciones.py
 Proteger credenciales y datos sensibles ................. seguridad.py (hash + sal, nunca texto plano)
 
 Consultas SQL seguras ................................... todas usan parámetros (?) -> evita SQL Injection
-
-------------------------------------------------------------------------------
-LO QUE FALTA PARA COMPLETAR EL INFORME TÉCNICO GRUPAL (no es código)
-------------------------------------------------------------------------------
-Paso 1 (4.1.1)  Requerimientos funcionales y no funcionales, clasificados y priorizados.
-Paso 2 (4.1.2)  Diagrama de casos de uso, BPMN (flujo de reserva y gestión de paquetes)
-                y diagrama de clases UML (las clases ya están en modelos.py y gestores.py).
-Paso 3 (4.1.3)  Roles del equipo, Product Backlog priorizado, Sprint Backlog, tiempos y entregables.
-Justificación técnica y registro del uso de IA (qué se usó, qué se cambió, qué se descartó).
